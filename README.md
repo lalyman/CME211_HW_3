@@ -48,13 +48,17 @@ class to use i.e. if 'self.dir' refers to a sensible file path.
 In the Airfoil class, the instance variables are:
 
 self.dir 			(user inputted file path of directory)
+
 self.alpha_files		(dictionary where the values are the
 				paths of the 'alpha<angle of attack>.dat'
 				files and the keys are the corresponding
 				angle of attack values e.g. -3.0, 0.0,
 				etc.)
+				
 self.xy_data_file		(file path of 'xy.dat')
+
 self.chord_len			(length of chord across airfoil)
+
 self.x_y_vals			(dictionary whose values are (x,y)
 				coordinates from 'xy.dat' and keys
 				are the unique corresponding line
@@ -62,6 +66,7 @@ self.x_y_vals			(dictionary whose values are (x,y)
 				file, where numbering starting from 0
 				on the first line of data after the
 				header line)
+
 self.alpha_stag_dict		(dictionary whose keys are alpha values
 				and whose values are lists. A list's
 				first entry is the x-y coordinates of a
@@ -71,12 +76,14 @@ self.alpha_stag_dict		(dictionary whose keys are alpha values
 				corresponding stagnation point, repeating
 				in this pattern if an angle of attack has 
 				more than one stagnation point)
+
 self.deltas 			(dictionary whose keys are line indices
 				in 'xy.dat' corresponding to certain
 				pairs of panels and whose values are
 				each [delta_x,delta_y], which is the 
 				distance differences in the x/y direct-
 				ions between that pair of panels)
+
 self.line_label			(header label on the first line of 'xy.
 				dat' (e.g. 'NACA 0012'), which is used in
 				the console output at the end)
