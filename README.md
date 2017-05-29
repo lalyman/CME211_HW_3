@@ -71,13 +71,13 @@ self.alpha_stag_dict		(dictionary whose keys are alpha values
 				corresponding stagnation point, repeating
 				in this pattern if an angle of attack has 
 				more than one stagnation point)
-	self.deltas 		(dictionary whose keys are line indices
+self.deltas 			(dictionary whose keys are line indices
 				in 'xy.dat' corresponding to certain
 				pairs of panels and whose values are
 				each [delta_x,delta_y], which is the 
 				distance differences in the x/y direct-
 				ions between that pair of panels)
-	self.line_label		(header label on the first line of 'xy.
+self.line_label			(header label on the first line of 'xy.
 				dat' (e.g. 'NACA 0012'), which is used in
 				the console output at the end)
 						
