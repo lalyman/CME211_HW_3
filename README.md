@@ -48,11 +48,11 @@ class to use i.e. if 'self.dir' refers to a sensible file path.
 In the Airfoil class, the instance variables are:
 
 self.dir 			(user inputted file path of directory)
-self.alpha_files		(dictionary where the values are the
-				paths of the 'alpha<angle of attack.dat'
-				files and the keys are the corresponding
-				angle of attack values e.g. -3.0, 0.0,
-				etc.)
+self.alpha_files	(dictionary where the values are the
+					paths of the 'alpha<angle of attack>.dat'
+					files and the keys are the corresponding
+					angle of attack values e.g. -3.0, 0.0,
+					etc.)
 self.xy_data_file		(file path of 'xy.dat')
 self.chord_len			(length of chord across airfoil)
 self.x_y_vals			(dictionary whose values are (x,y)
